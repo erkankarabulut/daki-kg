@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the following paper."
+title: DAKI-KG
+authors:
+  - family-names: Vos
+    given-names: Romy
+  - family-names: Vagliano
+    given-names: Iacopo
+  - family-names: Boersma
+    given-names: Cornelis
+  - family-names: van Harmelen
+    given-names: Frank
+  - family-names: Ten Teije
+    given-names: Annette
+  - family-names: Klopotowska
+    given-names: Joanna E.
+date-released: 2026
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: article
+  title: "Computer-Interpretable Domain Knowledge for Drug-Induced Acute Kidney Injury: a Knowledge Graph Approach"
+  authors:
+    - family-names: Vos
+      given-names: Romy
+    - family-names: Vagliano
+      given-names: Iacopo
+    - family-names: Boersma
+      given-names: Cornelis
+    - family-names: van Harmelen
+      given-names: Frank
+    - family-names: Ten Teije
+      given-names: Annette
+    - family-names: Klopotowska
+      given-names: Joanna E.
+  journal: Scientific Data
+  year: 2026
+  doi: 10.1038/s41597-026-07579-4
