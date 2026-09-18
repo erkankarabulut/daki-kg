@@ -74,13 +74,13 @@ Figures below are from the accompanying paper (see [Citation](#citation)).
 ## Usage
 
 ### Loading in Python (without GraphDB)
-`load_networkx.py` parses all `graph/*.ttls` files (including the RDF-star annotations) into a single `networkx.MultiDiGraph`, so the DAKI-KG can be used without a GraphDB/SPARQL setup:
+`scripts/load_networkx.py` parses all `graph/*.ttls` files (including the RDF-star annotations) into a single `networkx.MultiDiGraph`, so the DAKI-KG can be used without a GraphDB/SPARQL setup:
 ```bash
 pip install pyoxigraph networkx
-python load_networkx.py graph
+python scripts/load_networkx.py graph
 ```
 ```python
-from load_networkx import load_daki_kg
+from scripts.load_networkx import load_daki_kg
 g = load_daki_kg("graph")
 ```
 RDF-star annotations (e.g. `isMemberOfInteraction`, `hasFrequency`) are attached as attributes on the edge of the triple they annotate, rather than as separate nodes.
@@ -221,7 +221,7 @@ Note that the content in de DAKI-KG does **not** represent official Farmacothera
 ## Citation
 If you use the DAKI-KG, please cite:
 
-Vos, R., Vagliano, I., Boersma, C., van Harmelen, F., ten Teije, A., Klopotowska, J. E. Computer-Interpretable Domain Knowledge for Drug-Induced Acute Kidney Injury: a Knowledge Graph Approach. *Scientific Data* (2026). https://doi.org/10.1038/s41597-026-07579-4
+Vos, Romy, et al. "Computer-Interpretable Domain Knowledge for Drug-Induced Acute Kidney Injury: a Knowledge Graph Approach." Scientific Data (2026).
 
 ```bibtex
 @article{vos2026computer,
